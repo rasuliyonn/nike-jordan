@@ -1,0 +1,52 @@
+.hero {
+  min-height: 760px;
+}
+
+.hero-title {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins-bold";
+  font-size: 180px;
+  letter-spacing: -3%;
+  align-items: center;
+  text-align: center;
+  min-height: 700px;
+}
+.main-text {
+  font-size: 160px;
+  font-weight: 800;
+  color: transparent;
+  -webkit-text-stroke: 2px #cfd6df;
+  position: absolute;
+  z-index: 1;
+}
+.outline-text {
+  font-size: 180px;
+  font-weight: 800;
+  color: #0c315f;
+  z-index: 2;
+  position: absolute;
+  top: 50px;
+}
+.hero-product {
+  position: absolute;
+  top: 60px;
+  z-index: 3;
+  max-width: 1075px;
+  width: 100%;
+}
+
+.hero-subtitle {
+  font-family: "Poppins-bold";
+  font-size: 55px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.subtitle {
+  color: rgba(149, 151, 153, 1);
+  font-size: 18px;
+  letter-spacing: 2%;
+  text-align: center;
+  padding-bottom: 60px;
+}

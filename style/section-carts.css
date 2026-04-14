@@ -1,0 +1,44 @@
+.section-carts {
+  padding-bottom: 0;
+}
+
+.section-cart {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+}
+
+.cart-newcomer,
+.cart-men,
+.cart-women,
+.cart-kids {
+  width: 100%;
+  height: 386px;
+  border-radius: 12px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cart-newcomer {
+  background-image: url(../img/Rectangle\ 10.png);
+}
+
+.cart-men {
+  background-image: url(../img/Rectangle\ 7.png);
+}
+
+.cart-women {
+  background-image: url(../img/Rectangle\ 8.png);
+}
+
+.cart-kids {
+  background-image: url(../img/Rectangle\ 9.png);
+}
+
+.cart-title {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Poppins-bold';
+  font-size: 36px;
+  line-height: 1;
+}
